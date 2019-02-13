@@ -1,16 +1,15 @@
-body,html{
+* {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 
-.s1{
-    background-image: url("1.jpeg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
+#parallax {
+    background: url("1.jpeg");
     height: 100%;
-    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
