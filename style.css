@@ -6,7 +6,16 @@
 }
 
 #parallax {
-    background: url("1.jpeg");
+    background: url('1.jpeg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-1 {
+    background: url('2.jpeg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;

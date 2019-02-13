@@ -1,0 +1,73 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 'Montserrat', sans-serif;
+	color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-7 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgimg-1 {
+	background: url('9.jpeg') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.bgimg-2 {
+	background: url('8.jpeg') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.bgimg-3 {
+	background: url('3.jpeg') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.bgimg-7 {
+	background: url('7.jpeg') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.caption,
+.caption-7 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #000000;
+}
+
+.caption span.border {
+	background: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 35px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 55px;
+	color: #111;
+}
